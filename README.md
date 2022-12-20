@@ -9,6 +9,12 @@ Dari gambar di atas, dapat terlihat bahwa meskipun elemen ke-3 adalah yang palin
 dalam struktur data stack ada dua kondisi yang perlu dihindari, yaitu underflow dan overflow.
 - Stack underflow, yaitu keadaan dimana kita mencoba mengakses atau menghapus elemen data pada stack yang kosong.
 - Stack overflow, yaitu keadaan di mana ruang memori yang dialokasikan untuk struktur data stack sudah penuh namun masih dilakukan operasi penyisipan elemen.
+## Queue
+Queue atau dalam Bahasa Indonesia diartikan ntrian adalah kumpulan data yang penambahan elemennya hanya bisa dilakukan pada sisi belakang dan penghapusannya hanya bisa dilakukan pada sisi depan. Konsep utamanya berkebalikan dari stack Prinsipnya adalah Elemen yang pertama kali masuk ke antrian akan keluar pertama kali. Atau dikenal dengan sebutan yaitu First In First Out.
+![image](https://user-images.githubusercontent.com/114170254/208706990-6a36ec0b-7aea-4330-883d-beb3d11f6a95.png)
+
+Pada gambar di atas, karena elemen 1 ditambahkan ke antrian lebih dulu daripada 2, maka 1 adalah elemen yang pertama dihapus dari antrian. Hal ini mengikuti aturan operasi FIFO.
+Dalam istilah pemrograman, menempatkan item dalam struktur data queue disebut enqueue, sedangkan operasi menghapus item dari queue disebut dequeue.
 
 
 
